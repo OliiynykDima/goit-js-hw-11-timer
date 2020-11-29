@@ -1,7 +1,7 @@
 import css from "./css/style.css";
 
 const countDownDate = new Date("08.01.2023 18:12:43");
-console.log(countDownDate);
+
 const timer = setInterval(function() {
 
   const now = new Date();
